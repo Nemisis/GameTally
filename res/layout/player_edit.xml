@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:id="@+id/nameText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/editPlayer" />
+		<EditText 
+			android:id="@+id/playerName" 
+		  	android:layout_width="fill_parent"
+        	android:background="@android:drawable/editbox_background"
+			android:layout_height="wrap_content" 
+        	android:layout_below="@id/nameText"
+        	android:layout_weight="1"
+        	android:hint="@string/editPlayerHint"
+			/>
+	</LinearLayout>
+	<LinearLayout
+			android:orientation="horizontal"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center_horizontal"
+    		android:paddingTop="6dip"
+   			android:layout_marginBottom="30dip">
+		<Button 
+			android:id="@+id/confirm" 
+			android:text="@string/confirmEdit"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:layout_height="fill_parent" />
+		<Button 
+			android:id="@+id/editCancelButton" 
+			android:text="@string/cancelButton"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:layout_height="fill_parent" />
+	</LinearLayout>
+</LinearLayout>

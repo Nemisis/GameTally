@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PongTally</string>
+<string name="deleteList">Remove List</string>
+<string name="startGame">Start Game</string>
+<string name="no_players">No players have been added yet.</string>
+<string name="confirmEdit">Edit Player</string>
+<string name="editPlayer">Edit Player:</string>
+<string name="editPlayerName">Edit Player Name</string>
+<string name="editPlayerHint">Type players name.</string>
+<string name="addPlayer">Add Player:</string>
+<string name="addPlayerName">Add Player Name</string>
+<string name="addPlayers">Add Player</string>
+<string name="deleteListTitle">Deleting List</string>
+<string name="deletePlayerTitle">Delete Player</string>
+<string name="deleteListMessage">Are you sure you want to delete the list? \n\n*WARNING*\nYou are about to delete the entire list and all data associated with it. </string>
+<string name="deletePlayerMessage">Are you sure you want to delete this player? \n\n*WARNING*\n\nYou are going to delete this player and all his/her information.</string>
+<string name="cancelButton">Cancel</string>
+<string name="editPlayerTitle">Edit Player</string>
+<string name="chooseTeamOneTitle">Choose Team #1</string>
+<string name="chooseTeamTwoTitle">Choose Team #2</string>
+<string name="noPlayersInDbToast">There are no players listed. You must add players before starting a game. </string>
+</resources>

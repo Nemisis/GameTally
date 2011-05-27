@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:orientation="vertical">
+    
+    <ListView android:id="@+id/android:list"
+          android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1"/>
+	  	<TextView android:id="@+id/android:empty"
+	          android:layout_width="wrap_content"
+	        	android:text="No players Listed! Click on 'Add Player' to add a player." android:layout_height="match_parent" android:layout_weight="1"/>
+	  	<TextView android:id="@+id/blank"
+	          android:layout_width="wrap_content"
+	        	android:text=" " android:layout_height="match_parent" android:layout_weight="1"/>
+	    <LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_marginBottom="30dip"
+	    		android:gravity="center_horizontal" android:layout_height="match_parent" android:layout_weight="1">
+	    		<Button android:id="@+id/addPlayers" 
+	   		 		android:layout_width="0dip"
+	   		 		android:layout_weight="1.0" 
+		     		android:text="@string/addPlayers" android:layout_height="match_parent"/>
+	    		<Button android:id="@+id/startGame"
+	   		 		android:layout_width="0dip"
+	   		 		android:layout_weight="1.0" 
+		     		android:text="@string/startGame" android:layout_height="match_parent"/> 
+		</LinearLayout>
+		
+	   		<EditText 
+				android:id="@+id/playerNameBox" 
+			  	android:layout_width="fill_parent"
+	        	android:background="@android:drawable/editbox_background"
+				android:hint="@string/editPlayerHint"
+	        	android:visibility="gone"
+			android:layout_height="match_parent" android:layout_weight="1"/>
+			<LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_marginBottom="30dip"
+	    		android:gravity="right" android:layout_height="match_parent" android:layout_weight="1">
+			
+				<Button 
+					android:id="@+id/confirm" 
+					android:text="@string/addPlayers"
+					android:layout_width="wrap_content"
+					android:visibility="gone"
+					android:padding="-2dip" android:layout_height="match_parent"/>
+				<Button 
+					android:id="@+id/cancelButton" 
+					android:text="@string/cancelButton"
+					android:layout_width="wrap_content"
+					android:visibility="gone" android:layout_height="match_parent"/>
+			</LinearLayout>
+
+</LinearLayout>
