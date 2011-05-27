@@ -1,0 +1,6 @@
+This is a project I am working on for a group of my friends. It's a simple Android application that tallies up wins in a SQLite3 database. 
+
+I am doing this in order to learn more about Android, specifically:
+	How to create and manage databases
+	How to pass data between Activities
+	How to display data from a database onto the screen
